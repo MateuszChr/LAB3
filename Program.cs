@@ -12,7 +12,7 @@ namespace LAB03
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
-            //test2115
+            //test211512312312312132221312313123
         }
     }
 }
