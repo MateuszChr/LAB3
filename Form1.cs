@@ -1,10 +1,11 @@
 namespace LAB03
 {
-    public partial class Form1 : Form
+    public partial class Kalkulator_procentowy_roztworu : Form
     {
-        public Form1()
+        public Kalkulator_procentowy_roztworu()
         {
             InitializeComponent();
         }
+
     }
 }
