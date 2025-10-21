@@ -46,7 +46,6 @@
             checkBox2 = new CheckBox();
             textBox4 = new TextBox();
             textBox5 = new TextBox();
-            button3 = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -55,6 +54,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(97, 23);
             textBox1.TabIndex = 0;
+            
             // 
             // textBox2
             // 
@@ -78,6 +78,7 @@
             button1.TabIndex = 3;
             button1.Text = "Oblicz";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -159,6 +160,7 @@
             comboBox1.Size = new Size(99, 23);
             comboBox1.TabIndex = 13;
             comboBox1.Text = "Kieliszek 50ml";
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // comboBox2
             // 
@@ -203,21 +205,11 @@
             textBox5.Size = new Size(100, 23);
             textBox5.TabIndex = 18;
             // 
-            // button3
-            // 
-            button3.Location = new Point(394, 327);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 19;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
-            // 
             // Kalkulator_procentowy_roztworu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button3);
             Controls.Add(textBox5);
             Controls.Add(textBox4);
             Controls.Add(checkBox2);
@@ -262,6 +254,5 @@
         private CheckBox checkBox2;
         private TextBox textBox4;
         private TextBox textBox5;
-        private Button button3;
     }
 }
