@@ -12,7 +12,7 @@ namespace LAB03
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Kalkulator_procentowy_roztworu());
-            //test211512312312312132221312313123
+            //test211512312312312132221312313123hgxchjzxg
         }
     }
 }
